@@ -2,6 +2,7 @@
 import Header from "@/components/Header";
 import "./globals.css";
 import Provider  from './Provider'
+import Tabs from "@/components/Tabs";
 
 
 export const metadata = {
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       <body >
         <Provider>
           <Header />
+          <Tabs/>
           {children}
         </Provider>
       </body>
