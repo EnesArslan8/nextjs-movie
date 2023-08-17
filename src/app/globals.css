@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
+img{
+    height: 0;
+}
+
+.imgContainer > *{
+    flex: 1 1 auto;
+}
+.imgContainer > img{
+    height: 350px;
+}
